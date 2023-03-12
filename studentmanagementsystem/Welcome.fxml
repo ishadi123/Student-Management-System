@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="apane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="499.0" prefWidth="803.0" style="-fx-background-color: #00e676;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentmanagementsystem.WelcomeController">
+   <children>
+      <ImageView fitHeight="499.0" fitWidth="712.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pngwing.com(1).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="51.0" layoutY="143.0" prefHeight="46.0" prefWidth="714.0" text="WELCOME STUDENT MANAGEMENT SYSTEM" textFill="#2e7d32">
+         <font>
+            <Font name="Snap ITC" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="382.0" layoutY="189.0" text="OF" textFill="#2e7d32">
+         <font>
+            <Font name="Snap ITC" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="242.0" prefHeight="18.0" prefWidth="540.0" text="LITTLE FLOWER PRE SCHOOL" textFill="#2e7d32">
+         <font>
+            <Font name="Snap ITC" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="596.0" layoutY="471.0" prefHeight="18.0" prefWidth="150.0" text="Loading........" textFill="#eeff41">
+         <font>
+            <Font name="Snap ITC" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
